@@ -32,7 +32,7 @@ apiGroup.MapColors();
 apiGroup.MapWeeks();
 apiGroup.MapWeekTypes();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 
 
