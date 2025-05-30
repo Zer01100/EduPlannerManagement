@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./Navbar.css";
 import {FaBars, FaSearch} from "react-icons/fa";
 import * as settings from '../../../settings.json';

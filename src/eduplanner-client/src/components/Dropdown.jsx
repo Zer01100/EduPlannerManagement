@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {useEffect, useState} from 'react';
 import {FaCaretDown, FaCaretUp} from "react-icons/fa6";
 import {Link} from "react-router";
