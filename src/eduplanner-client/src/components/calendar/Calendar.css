@@ -44,3 +44,39 @@ header.sx__calendar-header{
 
 }
 
+.event-wyk {
+    background-color: #7CFC00 !important;
+    border-left: 4px solid #55B200 !important;
+    color: black !important;
+}
+
+.event-æw {
+    background-color: #00BFFF !important;
+    border-left: 4px solid #0077AA !important;
+    color: white !important;
+}
+
+.event-lab {
+    background-color: #663399 !important;
+    border-left: 4px solid #4B2673 !important;
+    color: white !important;
+}
+
+.event-proj {
+    background-color: #FFFF00 !important;
+    border-left: 4px solid #B2B200 !important;
+    color: black !important;
+}
+
+.event-sem {
+    background-color: #00BFFF !important;
+    border-left: 4px solid #0077AA !important;
+    color: white !important;
+}
+
+.event-lek {
+    background-color: #FFFF00 !important;
+    border-left: 4px solid #B2B200 !important;
+    color: black !important;
+}
+

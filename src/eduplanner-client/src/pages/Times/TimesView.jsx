@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import '@schedule-x/theme-default/dist/calendar.css'
 import "../../components/calendar/Calendar.css"
 import {useEffect, useRef, useState} from "react";
@@ -73,7 +75,8 @@ const TimesView = ({resource}) => {
             start: formatDate(course.startDate, course.minutesStart),
             end: formatDate(course.endDate, course.minutesEnd),
             location: (course.rooms.length > 0 ? course.rooms[0].nr  : "Nie podano"),
-            description: course.groups.map((group) => group.shortcut).join(", ")
+            description: course.groups.map((group) => group.shortcut).join(", "),
+            classNames: [`event-${course.course.type?.toLowerCase()}`]
           })
         );
     
