@@ -26,13 +26,14 @@ const TimesView = ({ resource }) => {
     }, []);
 
     useEffect(() => {
-        fetchAndSetTimes();
-    }, [typeId]);
-
-    useEffect(() => {
-        fetchAndSetTimes();
-        fetchAndSetWeek();
-    }, [weekId]);
+        const fetchData = async () => {
+            await fetchAndSetTimes();
+            await fetchAndSetWeek();
+        }
+        if (typeId && weekId) {
+            fetchData();
+        }
+    }, [typeId, weekId]);
 
     const fetchAndSetTimes = async () => {
         const times = await fetchTimes([1, 2, 3, 4]);
@@ -53,7 +54,7 @@ const TimesView = ({ resource }) => {
 
     const fetchActualWeek = async () => {
         const currentDate = new Date();
-        const currentWeek = await ApiService.getCurrentWeek(currentDate.toISOString());
+        const currentWeek = await ApiService.getCurreQntWeek(currentDate.toISOString());
         return currentWeek;
     }
 
@@ -72,7 +73,7 @@ const TimesView = ({ resource }) => {
             description: course.groups.map(g => g.shortcut).join(", "),
             groupId: (course.groups.length > 0 ? course.groups[0].id : null),
             conductor: course.teachers?.map(t => `${t.name} ${t.surname}`).join(", ") || "Nie podano",
-            teacherId: (course.teachers && course.teachers.length > 0 ? course.teachers[0].id : null),
+            conductorId: course.teachers?.[0]?.id ?? null,
             classNames: [`event-${course.course.type?.toLowerCase()}`]
         }));
 
@@ -120,7 +121,7 @@ const TimesView = ({ resource }) => {
             <div className="pb-4 flex flex-row">
                 <DropdownCalendar type={resource} weeks={weeks} date={date} />
             </div>
-            <Calendar events={events} controls={controls} />
+            <Calendar events={events} controls={controls} weekId={weekId} typeId={typeId} />
         </div>
     );
 };

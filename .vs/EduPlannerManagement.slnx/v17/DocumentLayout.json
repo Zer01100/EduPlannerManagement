@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\components\\calendar\\Calendar.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -58,28 +58,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TimesView.jsx",
               "DocumentMoniker": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx",
               "RelativeDocumentMoniker": "src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx",
-              "ToolTip": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx*",
-              "RelativeToolTip": "src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFUAAABaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx",
+              "RelativeToolTip": "src\\eduplanner-client\\src\\pages\\Times\\TimesView.jsx",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswG4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-06-02T12:41:09.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Calendar.jsx",
               "DocumentMoniker": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx",
               "RelativeDocumentMoniker": "src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx",
               "ToolTip": "C:\\Users\\lisja\\source\\repos\\EduPlannerManagement\\src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx",
               "RelativeToolTip": "src\\eduplanner-client\\src\\components\\calendar\\Calendar.jsx",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswEsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswFQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-06-02T12:40:41.552Z"
+              "WhenOpened": "2025-06-02T12:40:41.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
