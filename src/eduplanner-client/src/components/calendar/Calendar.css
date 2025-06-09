@@ -44,6 +44,10 @@ header.sx__calendar-header{
 
 }
 
+.sx__event-modal__color-icon.no-border {
+    border-left: none !important;
+}
+
 .event-wyk {
     background-color: #7CFC00 !important;
     border-left: 4px solid #55B200 !important;

@@ -46,9 +46,10 @@ const Calendar = ({ events = [], controls, weekId, typeId }) => {
             return (
                 <div className="sx__event-modal sx__event-modal-default is-open" tabIndex={0}>
                     <div className="sx__has-icon sx__event-modal__title">
-                        <div className="sx__event-modal__color-icon sx__event-icon"
-                            style={{ backgroundColor: 'var(--sx-color-primary-container)' }}>
-                        </div>
+                        <div
+                            className={`sx__event-modal__color-icon sx__event-icon ${calendarEvent._options?.additionalClasses?.join(' ') || ''} no-border`} 
+                            style={{ border: 'none' }}
+                        ></div>
                         {calendarEvent.title}
                     </div>
 
